@@ -92,4 +92,27 @@ nav .ContenuNav img {
   width: 140px;
 }
 
+.Intro {
+  background: url("/style/img/poke_set_hero_image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Intro .ContenuIntro {
+  color: #ffffff;
+  text-align: center;
+}
+.Intro .ContenuIntro p {
+  margin-bottom: 50px;
+}
+.Intro .ContenuIntro button {
+  padding: 17px 45px;
+  border: 0px solid;
+  background-color: #445b4b;
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=Style.css.map */

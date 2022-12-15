@@ -1,0 +1,22 @@
+.Intro{
+    background: url("/style/img/poke_set_hero_image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .ContenuIntro{
+        color: $blanc;
+        text-align: center;
+        p{
+            margin-bottom: 50px;
+        }
+        button{
+            padding: 17px 45px;
+            border: 0px solid;
+            background-color: $VertF;
+            color: $blanc;
+        }
+    }
+}
