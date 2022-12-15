@@ -7,12 +7,20 @@
     align-items: center;
     justify-content: center;
     .ContenuIntro{
+        width: 100%;
+        height: 100%;
         color: $blanc;
+        background-color: rgba(0, 0, 0, 0.075);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         p{
             margin-bottom: 50px;
         }
         button{
+            width: fit-content;
             padding: 17px 45px;
             border: 0px solid;
             background-color: $VertF;
