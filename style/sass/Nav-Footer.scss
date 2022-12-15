@@ -1,0 +1,36 @@
+nav{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    .ContenuNav{
+        width: 93%;
+        height: 74px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .Navigation{
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .BoutonNav{
+                width: 60%;
+                display: flex;
+                justify-content: space-between;
+                a{
+                    text-decoration: none;
+                    color: $VertF;
+                }
+            }
+            button{
+                padding: 17px 45px;
+                border: 0px solid;
+                background-color: $VertF;
+                color: $blanc;
+            }
+        }
+        img{
+            width: 140px;
+        }
+    }
+}

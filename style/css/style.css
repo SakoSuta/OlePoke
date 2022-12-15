@@ -1,0 +1,95 @@
+.Robot300 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+}
+
+.Robot400 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+}
+
+.Robot700 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+
+.Oswald400 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+.Dancing700 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+
+.font140 {
+  font-size: 140px;
+}
+
+.font60 {
+  font-size: 60px;
+}
+
+.font50 {
+  font-size: 50px;
+}
+
+.font35 {
+  font-size: 35px;
+}
+
+.font30 {
+  font-size: 30px;
+}
+
+.font18 {
+  font-size: 18px;
+}
+
+.font15 {
+  font-size: 15px;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+nav {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+nav .ContenuNav {
+  width: 93%;
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .ContenuNav .Navigation {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .ContenuNav .Navigation .BoutonNav {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+nav .ContenuNav .Navigation .BoutonNav a {
+  text-decoration: none;
+  color: #445b4b;
+}
+nav .ContenuNav .Navigation button {
+  padding: 17px 45px;
+  border: 0px solid;
+  background-color: #445b4b;
+  color: #ffffff;
+}
+nav .ContenuNav img {
+  width: 140px;
+}
+
+/*# sourceMappingURL=Style.css.map */
