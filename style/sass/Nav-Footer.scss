@@ -1,5 +1,6 @@
 nav{
     position: Fixed;
+    z-index: 999 !important;
     width: 100%;
     background-color: $blanc;
     display: flex;

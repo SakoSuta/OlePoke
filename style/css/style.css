@@ -57,6 +57,7 @@
 
 nav {
   position: Fixed;
+  z-index: 999 !important;
   width: 100%;
   background-color: #ffffff;
   display: flex;
@@ -129,6 +130,7 @@ nav .ContenuNav img {
 }
 
 .Ingredients {
+  width: 100%;
   background-color: #cee4b0;
   padding: 90px 150px;
   display: flex;
@@ -149,23 +151,28 @@ nav .ContenuNav img {
   margin-bottom: 50px;
 }
 .Ingredients .Tous_Ingre {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   margin-bottom: 60px;
   text-align: center;
 }
 .Ingredients .Tous_Ingre .Ingredient {
-  width: 300px;
-  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
 }
-.Ingredients .Tous_Ingre .Ingredient img {
-  width: 292px;
+.Ingredients .Tous_Ingre .Ingredient .Image_Ingre {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
-.Ingredients .Tous_Ingre .Ingredient img:hover {
-  width: 310px;
+.Ingredients .Tous_Ingre .Ingredient .Image_Ingre img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s;
+}
+.Ingredients .Tous_Ingre .Ingredient .Image_Ingre img:hover {
+  transform: scale(1.1);
 }
 .Ingredients .Tous_Ingre .Ingredient .Texte_Ingre {
   display: flex;

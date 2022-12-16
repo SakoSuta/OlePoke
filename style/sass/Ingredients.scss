@@ -1,4 +1,5 @@
 .Ingredients{
+    width: 100%;
     background-color: $Vert;
     padding: 90px 150px;
     display: flex;
@@ -18,21 +19,26 @@
         }
     }
     .Tous_Ingre{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
         margin-bottom: 60px;
         text-align: center;
         .Ingredient{
-            width: 300px;
-            height: 400px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: flex-end;
-            img{
-                width: 292px;
-            }
-            img:hover{
-                width: 310px;
+            .Image_Ingre{
+                width: 100%;
+                aspect-ratio: 1/1;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: transform 1s;
+                }
+                img:hover{
+                    transform: scale(1.1);
+                }
             }
             .Texte_Ingre{
                 display: flex;
