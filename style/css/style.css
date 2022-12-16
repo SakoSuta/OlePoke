@@ -207,4 +207,34 @@ nav .ContenuNav img {
   color: #ffffff;
 }
 
+.PlusInfo {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 200px;
+}
+.PlusInfo .Image_Chef img {
+  width: 420px;
+}
+.PlusInfo .Text_PlusInfo {
+  min-width: 500px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.PlusInfo .Text_PlusInfo h2 {
+  color: #445b4b;
+  margin-bottom: 50px;
+}
+.PlusInfo .Text_PlusInfo p {
+  color: #445b4b;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+.PlusInfo .Text_PlusInfo button {
+  padding: 17px 20px;
+  border: 0px solid;
+  background-color: #445b4b;
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=Style.css.map */
