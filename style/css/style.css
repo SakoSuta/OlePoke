@@ -56,7 +56,9 @@
 }
 
 nav {
-  background-color: antiquewhite;
+  position: Fixed;
+  width: 100%;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
 }
@@ -112,12 +114,78 @@ nav .ContenuNav img {
   align-items: center;
   text-align: center;
 }
-.Intro .ContenuIntro p {
+.Intro .ContenuIntro h1, .Intro .ContenuIntro h2 {
   margin-bottom: 50px;
 }
 .Intro .ContenuIntro button {
   width: fit-content;
-  padding: 17px 45px;
+  padding: 20px 60px;
+  border: 0px solid;
+  background-color: #445b4b;
+  color: #ffffff;
+}
+
+.Ingredients {
+  background-color: #cee4b0;
+  padding: 90px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Ingredients .Titre_Ingre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Ingredients .Titre_Ingre h2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.Ingredients .Titre_Ingre p {
+  color: #445b4b;
+  margin-bottom: 50px;
+}
+.Ingredients .Tous_Ingre {
+  display: flex;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.Ingredients .Tous_Ingre .Ingredient {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.Ingredients .Tous_Ingre .Ingredient img {
+  width: 292px;
+}
+.Ingredients .Tous_Ingre .Ingredient img:hover {
+  width: 310px;
+}
+.Ingredients .Tous_Ingre .Ingredient .Texte_Ingre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Ingredients .Tous_Ingre .Ingredient .Texte_Ingre .Num {
+  width: fit-content;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.Ingredients .Tous_Ingre .Ingredient .Texte_Ingre .Num p {
+  padding: 15px 20px;
+  color: #445b4b;
+}
+.Ingredients .Tous_Ingre .Ingredient .Texte_Ingre h3 {
+  color: #445b4b;
+}
+.Ingredients button {
+  width: fit-content;
+  padding: 17px 70px;
   border: 0px solid;
   background-color: #445b4b;
   color: #ffffff;

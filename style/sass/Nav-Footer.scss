@@ -1,5 +1,7 @@
 nav{
-    background-color: antiquewhite;
+    position: Fixed;
+    width: 100%;
+    background-color: $blanc;
     display: flex;
     justify-content: center;
     .ContenuNav{

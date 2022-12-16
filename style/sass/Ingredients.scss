@@ -1,0 +1,65 @@
+.Ingredients{
+    background-color: $Vert;
+    padding: 90px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .Titre_Ingre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2{
+            color: $blanc;
+            margin-bottom: 20px;
+        }
+        p{
+            color: $VertF;
+            margin-bottom: 50px;
+        }
+    }
+    .Tous_Ingre{
+        display: flex;
+        margin-bottom: 60px;
+        text-align: center;
+        .Ingredient{
+            width: 300px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            img{
+                width: 292px;
+            }
+            img:hover{
+                width: 310px;
+            }
+            .Texte_Ingre{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .Num{
+                    width: fit-content;
+                    text-align: center;
+                    background-color: $blanc;
+                    border-radius: 100%;
+                    margin-bottom: 20px;
+                    p{
+                        padding: 15px 20px;
+                        color: $VertF;
+                    }
+                }
+                h3{
+                    color: $VertF;
+                }
+            }
+        }
+    }
+    button{
+        width: fit-content;
+        padding: 17px 70px;
+        border: 0px solid;
+        background-color: $VertF;
+        color: $blanc;
+    }
+}
