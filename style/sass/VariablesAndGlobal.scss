@@ -1,0 +1,11 @@
+$blanc: #ffffff;
+$Vert: #cee4b0;
+$VertF: #445b4b;
+
+button{
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+button:hover{
+    transform: scale(1.05);
+}

@@ -1,3 +1,12 @@
+button {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
 .Robot300 {
   font-family: "Roboto Mono", monospace;
   font-weight: 300;
@@ -90,9 +99,6 @@ nav .ContenuNav .Navigation button {
   border: 0px solid;
   background-color: #445b4b;
   color: #ffffff;
-}
-nav .ContenuNav .Navigation button:hover {
-  padding: 19px 48px;
 }
 nav .ContenuNav img {
   width: 140px;
