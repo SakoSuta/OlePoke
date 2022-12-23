@@ -246,37 +246,37 @@ nav .ContenuNav img {
   display: flex;
   justify-content: center;
 }
-.Livraison .ContenuLivraison .Text_Livraison {
-  max-width: 620px;
+.Livraison .ContenuLivraison .Info_Livraison {
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+}
+.Livraison .ContenuLivraison .Info_Livraison .Text_Livraison {
+  max-width: 620px;
   padding: 50px 0px;
   margin-right: 70px;
 }
-.Livraison .ContenuLivraison .Text_Livraison h2 {
+.Livraison .ContenuLivraison .Info_Livraison .Text_Livraison h2 {
   color: #445b4b;
   margin-bottom: 50px;
 }
-.Livraison .ContenuLivraison .Text_Livraison p {
+.Livraison .ContenuLivraison .Info_Livraison .Text_Livraison p {
   width: 500px;
   color: #445b4b;
   line-height: 36px;
   margin-bottom: 30px;
   text-align: left;
 }
-.Livraison .ContenuLivraison .Text_Livraison .Image_Entreprise {
+.Livraison .ContenuLivraison .Info_Livraison .Image_Entreprise {
   width: 80%;
   display: flex;
   justify-content: space-between;
 }
-.Livraison .ContenuLivraison .Text_Livraison .Image_Entreprise img {
+.Livraison .ContenuLivraison .Info_Livraison .Image_Entreprise img {
   width: 130px;
   transition: transform 0.2s;
 }
-.Livraison .ContenuLivraison .Text_Livraison .Image_Entreprise img:hover {
+.Livraison .ContenuLivraison .Info_Livraison .Image_Entreprise img:hover {
   transform: scale(1.1);
 }
 .Livraison .ContenuLivraison .Image_Livreur img {
