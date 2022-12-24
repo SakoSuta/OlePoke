@@ -180,23 +180,23 @@ nav .ContenuNav img {
 .Ingredients .Tous_Ingre .Ingredient .Image_Ingre img:hover {
   transform: scale(1.1);
 }
-.Ingredients .Tous_Ingre .Ingredient .Texte_Ingre {
+.Ingredients .Tous_Ingre .Ingredient .Text_Ingre {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.Ingredients .Tous_Ingre .Ingredient .Texte_Ingre .Num {
+.Ingredients .Tous_Ingre .Ingredient .Text_Ingre .Num {
   width: fit-content;
   text-align: center;
   background-color: #ffffff;
   border-radius: 100%;
   margin-bottom: 20px;
 }
-.Ingredients .Tous_Ingre .Ingredient .Texte_Ingre .Num p {
+.Ingredients .Tous_Ingre .Ingredient .Text_Ingre .Num p {
   padding: 15px 20px;
   color: #445b4b;
 }
-.Ingredients .Tous_Ingre .Ingredient .Texte_Ingre h3 {
+.Ingredients .Tous_Ingre .Ingredient .Text_Ingre h3 {
   color: #445b4b;
 }
 .Ingredients button {
@@ -305,16 +305,16 @@ nav .ContenuNav img {
   flex-direction: column;
   align-items: center;
 }
-.InfoEntreprise .ContenuInfoEntr .Info .Icon-InfEntr {
+.InfoEntreprise .ContenuInfoEntr .Info .Icon_InfEntr {
   width: 100%;
   aspect-ratio: 3/1;
 }
-.InfoEntreprise .ContenuInfoEntr .Info .Icon-InfEntr svg {
+.InfoEntreprise .ContenuInfoEntr .Info .Icon_InfEntr svg {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.InfoEntreprise .ContenuInfoEntr .Info .Icon-InfEntr svg path {
+.InfoEntreprise .ContenuInfoEntr .Info .Icon_InfEntr svg path {
   fill: #ffffff;
 }
 .InfoEntreprise .ContenuInfoEntr .Info p {
@@ -324,6 +324,31 @@ nav .ContenuNav img {
 .InfoEntreprise .ContenuInfoEntr .BorderInf {
   border-left: 1px solid #ffffff;
   border-right: 1px solid #ffffff;
+}
+
+.Impact {
+  display: flex;
+  justify-content: center;
+}
+.Impact .ContenuImpact {
+  width: 80%;
+}
+.Impact .ContenuImpact .Titre_Impact svg {
+  width: 45px;
+  fill: #cee4b0;
+}
+.Impact .ContenuImpact .Titre_Impact p {
+  color: #445b4b;
+}
+.Impact .ContenuImpact .Contenu_Text_Impact .Text_Impact {
+  aspect-ratio: 12/1;
+}
+.Impact .ContenuImpact .Contenu_Text_Impact .Text_Impact svg {
+  width: 45px;
+  fill: #cee4b0;
+}
+.Impact .ContenuImpact .Contenu_Text_Impact .Text_Impact p {
+  color: #445b4b;
 }
 
 /*# sourceMappingURL=Style.css.map */
