@@ -240,6 +240,7 @@ nav .ContenuNav img {
 .Livraison {
   display: flex;
   justify-content: center;
+  padding: 100px 0px;
 }
 .Livraison .ContenuLivraison {
   width: 80%;
@@ -281,6 +282,48 @@ nav .ContenuNav img {
 }
 .Livraison .ContenuLivraison .Image_Livreur img {
   width: 500px;
+}
+
+.InfoEntreprise {
+  width: 100%;
+  max-height: fit-content;
+  background-image: url(/style/img/plants_clostup_background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding: 120px 0px;
+}
+.InfoEntreprise .ContenuInfoEntr {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+}
+.InfoEntreprise .ContenuInfoEntr .Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.InfoEntreprise .ContenuInfoEntr .Info .Icon-InfEntr {
+  width: 100%;
+  aspect-ratio: 3/1;
+}
+.InfoEntreprise .ContenuInfoEntr .Info .Icon-InfEntr svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.InfoEntreprise .ContenuInfoEntr .Info .Icon-InfEntr svg path {
+  fill: #ffffff;
+}
+.InfoEntreprise .ContenuInfoEntr .Info p {
+  color: #ffffff;
+  margin-top: 30px;
+}
+.InfoEntreprise .ContenuInfoEntr .BorderInf {
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
 }
 
 /*# sourceMappingURL=Style.css.map */
