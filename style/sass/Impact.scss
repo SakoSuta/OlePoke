@@ -1,8 +1,11 @@
 .Impact{
     display: flex;
     justify-content: center;
+    padding: 90px 0px;
     .ContenuImpact{
-        width: 80%;
+        width: 85%;
+        display: grid;
+        grid-template-columns: 300px auto;
         .Titre_Impact{
             svg{
                 width: 45px;
@@ -10,22 +13,26 @@
             }
             p{
                 color: $VertF;
+                line-height: 1.5;
             }
         }
         .Contenu_Text_Impact{
-            .FirstL_Impact{
-                
-            }
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             .Text_Impact{
-                aspect-ratio: 12/1;
+                padding: 20px;
                 svg{
-                    width: 45px;
+                    width: 60px;
                     fill:$Vert
                 }
                 p{
-                    color: $VertF
+                    color: $VertF;
+                    line-height: 1.4;
                 }
             }
+        }
+        svg{
+            margin-bottom: 10px;
         }
     }
 }

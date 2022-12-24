@@ -329,9 +329,12 @@ nav .ContenuNav img {
 .Impact {
   display: flex;
   justify-content: center;
+  padding: 90px 0px;
 }
 .Impact .ContenuImpact {
-  width: 80%;
+  width: 85%;
+  display: grid;
+  grid-template-columns: 300px auto;
 }
 .Impact .ContenuImpact .Titre_Impact svg {
   width: 45px;
@@ -339,16 +342,25 @@ nav .ContenuNav img {
 }
 .Impact .ContenuImpact .Titre_Impact p {
   color: #445b4b;
+  line-height: 1.5;
+}
+.Impact .ContenuImpact .Contenu_Text_Impact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .Impact .ContenuImpact .Contenu_Text_Impact .Text_Impact {
-  aspect-ratio: 12/1;
+  padding: 20px;
 }
 .Impact .ContenuImpact .Contenu_Text_Impact .Text_Impact svg {
-  width: 45px;
+  width: 60px;
   fill: #cee4b0;
 }
 .Impact .ContenuImpact .Contenu_Text_Impact .Text_Impact p {
   color: #445b4b;
+  line-height: 1.4;
+}
+.Impact .ContenuImpact svg {
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=Style.css.map */
